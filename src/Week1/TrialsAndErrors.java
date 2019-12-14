@@ -22,5 +22,13 @@ public class TrialsAndErrors {
 
         double decimalNumber2 = 0.42;
         decimalNumber2 = 1;
+
+        String greeting = "Hi ";
+        String name = "John";
+        String goodbye = ", and goodbye!";
+        String sentence = greeting + name + goodbye;
+        System.out.println(sentence);
+
+
     }
 }
