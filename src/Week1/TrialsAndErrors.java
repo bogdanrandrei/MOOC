@@ -29,6 +29,12 @@ public class TrialsAndErrors {
         String sentence = greeting + name + goodbye;
         System.out.println(sentence);
 
+        int first = 1;
+        int second = 3;
+
+        boolean isGreater = first > second;
+        System.out.println(isGreater);
+
 
     }
 }
