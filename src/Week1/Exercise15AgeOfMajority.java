@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercise15AgeOfMajority {
     public static void main(String[] args) {
         System.out.println("Ce varsta ai?");
-        Scanner reader = new Scanner(System.in);
+            Scanner reader = new Scanner(System.in);
         int age = Integer.parseInt(reader.nextLine());
 
         if (age > 18) {

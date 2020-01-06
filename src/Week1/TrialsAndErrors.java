@@ -35,6 +35,15 @@ public class TrialsAndErrors {
         boolean isGreater = first > second;
         System.out.println(isGreater);
 
+        System.out.println("Is the string equal to 'milk'?");
+        String text2 = "water";
+
+        if (!(text.equals("milk"))) {  // true if the condition text.equals("milk") is false
+            System.out.println("No!");
+        } else {
+            System.out.println("Yes");
+        }
+
 
     }
 }
