@@ -1,14 +1,20 @@
 package Week1;
 
 import java.util.Scanner;
+public class Exercise16EvenOrOdd {
+    public static void main(String[] args) {
+        {
+            Scanner input = new Scanner(System.in);
+            System.out.print("Type your number: ");
+            int number = input.nextInt();
 
-//public class Exercise16EvenOrOdd {
-    //public static void main(String[] args) {
-        //System.out.println("Scrie un numar!");
-        //Scanner reader = new Scanner(System.in);
+            if (number % 2 == 0) {
+                System.out.println("Your number is even!");
+            } else {
+                System.out.println("Your number is odd!");
+            }
+        }
+    }
+}
 
-       // boolean numarPar = numar / 2;
-//
-       // if (isLesser) {
-          //  System.out.println(first + " is less than " + second + "!");
-       // }
+
